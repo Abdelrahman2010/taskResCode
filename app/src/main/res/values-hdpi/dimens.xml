@@ -1,0 +1,70 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="activity_horizontal_margin">12.0dp</dimen>
+    <dimen name="activity_vertical_margin">12.0dp</dimen>
+
+    <dimen name="d1">0.75dp</dimen>
+    <dimen name="d2">1.5dp</dimen>
+    <dimen name="d4">3.0dp</dimen>
+    <dimen name="d6">4.5dp</dimen>
+    <dimen name="d8">6.0dp</dimen>
+    <dimen name="d9">6.75dp</dimen>
+    <dimen name="d10">7.5dp</dimen>
+    <dimen name="d11">8.25dp</dimen>
+    <dimen name="d12">9.0dp</dimen>
+    <dimen name="d13">9.75dp</dimen>
+    <dimen name="d14">10.5dp</dimen>
+    <dimen name="d15">11.25dp</dimen>
+    <dimen name="d16">15.0dp</dimen>
+    <dimen name="d17">12.75dp</dimen>
+    <dimen name="d19">14.25dp</dimen>
+    <dimen name="d20">15.0dp</dimen>
+    <dimen name="d_minus_20">-15.0dp</dimen>
+    <dimen name="d_minus_10">-12.5dp</dimen>
+    <dimen name="d22">16.5dp</dimen>
+    <dimen name="d23">17.25dp</dimen>
+    <dimen name="d24">18.0dp</dimen>
+    <dimen name="d25">18.75dp</dimen>
+    <dimen name="d30">22.5dp</dimen>
+    <dimen name="d35">26.25dp</dimen>
+    <dimen name="d40">30.299dp</dimen>
+    <dimen name="d50">37.5dp</dimen>
+    <dimen name="d51">37.8dp</dimen>
+    <dimen name="d55">41.25dp</dimen>
+    <dimen name="d60">45.0dp</dimen>
+    <dimen name="d70">52.5dp</dimen>
+    <dimen name="d72">54.0dp</dimen>
+    <dimen name="d80">60.0dp</dimen>
+    <dimen name="d100">75.0dp</dimen>
+    <dimen name="d120">90.0dp</dimen>
+    <dimen name="d140">105.0dp</dimen>
+    <dimen name="d150">112.5dp</dimen>
+    <dimen name="d155">112.5dp</dimen>
+    <dimen name="d190">142.5dp</dimen>
+    <dimen name="d200">150.0dp</dimen>
+    <dimen name="d210">157.5dp</dimen>
+    <dimen name="d220">165.0dp</dimen>
+    <dimen name="d225">168.75dp</dimen>
+    <dimen name="d250">187.5dp</dimen>
+    <dimen name="d255">191.25dp</dimen>
+    <dimen name="d300">225.0dp</dimen>
+    <dimen name="d350">262.5dp</dimen>
+<!--    <dimen name="d350">262.5‬dp</dimen>-->
+
+
+    <dimen name="f8">6.0sp</dimen>
+    <dimen name="f9">6.75sp</dimen>
+    <dimen name="f10">7.5sp</dimen>
+    <dimen name="f11">8.25sp</dimen>
+    <dimen name="f12">9.0sp</dimen>
+    <dimen name="f13">9.75sp</dimen>
+    <dimen name="f14">10.5sp</dimen>
+    <dimen name="f16">12.0sp</dimen>
+    <dimen name="f18">13.5sp</dimen>
+    <dimen name="f22">16.5sp</dimen>
+    <dimen name="f20">15.0sp</dimen>
+    <dimen name="f25">18.75sp</dimen>
+    <dimen name="f30">30sp</dimen>
+    <dimen name="f35">26.25sp</dimen>
+
+</resources>

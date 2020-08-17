@@ -1,0 +1,18 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:thickness="5dp"
+    android:shape="rectangle">
+    <stroke android:width="1dp"
+        android:color="@color/chat_admin"/>
+    <corners
+
+        android:topLeftRadius="30dp"
+        android:bottomRightRadius="30dp"
+        android:bottomLeftRadius="30dp"/>
+    <gradient
+        android:startColor="@color/chat_admin"
+        android:endColor="@color/chat_admin"
+        android:type="linear"
+        android:angle="270"/>
+
+
+</shape>

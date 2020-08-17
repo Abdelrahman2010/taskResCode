@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "710589264137",
+    "firebase_url": "https://tast-tagamoa.firebaseio.com",
+    "project_id": "tast-tagamoa",
+    "storage_bucket": "tast-tagamoa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710589264137:android:a0525a4f7ef5ad3ab7e3d8",
+        "android_client_info": {
+          "package_name": "com.adwya.task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710589264137-6e4c7soljk4i8ugsokphg7stgt4pfe58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adwya.task",
+            "certificate_hash": "67c630f4f980bb760c983e606bf80a75b7d3b0a5"
+          }
+        },
+        {
+          "client_id": "710589264137-mhrsc9b3jnt26tvgc4orcv8lll5g1quk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeaOPqH3FCFnGgpCD52Pm1pSRqbIj_O_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710589264137-mhrsc9b3jnt26tvgc4orcv8lll5g1quk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.adwya.task.ui.auth.signup.SignUpSignViewModel" />
+
+    </data>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.auth.signup.SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="start"
+        android:layout_marginTop="@dimen/d50"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimary"
+            android:lineSpacingExtra="3sp"
+            android:layout_marginStart="@dimen/d55"
+            android:text="Create your \naccount"
+            />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@drawable/extreme_rounded_input_bg"
+        android:layout_marginStart="@dimen/d50"
+        android:layout_marginEnd="@dimen/d50"
+        android:layout_marginTop="@dimen/d70"
+        android:elevation="5dp"
+        android:textSize="13sp"
+        android:textColorHint="#bcbcbc"
+        android:lineSpacingExtra="4sp"
+        android:hint="Username"
+        android:paddingStart="@dimen/d30"
+        android:textColor="#000"
+        android:layout_height="@dimen/d35"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@drawable/extreme_rounded_input_bg"
+        android:layout_marginStart="@dimen/d50"
+        android:layout_marginEnd="@dimen/d50"
+        android:layout_marginTop="@dimen/d13"
+        android:elevation="5dp"
+        android:textSize="13sp"
+        android:textColorHint="#bcbcbc"
+        android:lineSpacingExtra="4sp"
+        android:hint="E-Mail"
+        android:paddingStart="@dimen/d30"
+        android:textColor="#000"
+        android:layout_height="@dimen/d35"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@drawable/extreme_rounded_input_bg"
+        android:layout_marginStart="@dimen/d50"
+        android:layout_marginEnd="@dimen/d50"
+        android:layout_marginTop="@dimen/d13"
+        android:elevation="5dp"
+        android:textSize="13sp"
+        android:textColorHint="#bcbcbc"
+        android:lineSpacingExtra="4sp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:paddingStart="@dimen/d30"
+        android:textColor="#000"
+        android:layout_height="@dimen/d35"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@drawable/extreme_rounded_input_bg"
+        android:layout_marginStart="@dimen/d50"
+        android:layout_marginEnd="@dimen/d50"
+        android:layout_marginTop="@dimen/d13"
+        android:elevation="5dp"
+        android:textSize="13sp"
+        android:textColorHint="#bcbcbc"
+        android:lineSpacingExtra="4sp"
+        android:inputType="phone"
+        android:hint="Phone Number"
+        android:paddingStart="@dimen/d30"
+        android:textColor="#000"
+        android:layout_height="@dimen/d35"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/d40"
+        android:layout_marginStart="@dimen/d50"
+        android:layout_marginEnd="@dimen/d50"
+        android:background="@drawable/our_button_red"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:lineSpacingExtra="5sp"
+        android:text="Sign Up"
+        android:layout_height="@dimen/d40"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#050507"
+        android:layout_marginTop="@dimen/d30"
+        android:letterSpacing="-0.03"
+        android:lineSpacingExtra="5sp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="By clicking sign up you agree to the our \nterms and Conditions"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="bottom|center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/d30"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="#050507"
+            android:letterSpacing="-0.03"
+            android:lineSpacingExtra="5sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:text="Do you have an account? "
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="#f15b5d"
+            android:letterSpacing="-0.03"
+            android:lineSpacingExtra="5sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:text=" Log in"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</layout>

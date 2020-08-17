@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.auth.SplashActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/jobsfirst"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:layout_margin="@dimen/d10"
+        android:layout_height="match_parent"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/first_back_lin"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="34sp"
+            android:textColor="#ffffff"
+            android:lineSpacingExtra="12sp"
+            android:layout_marginTop="@dimen/d17"
+            android:layout_marginStart="@dimen/d40"
+            android:text="Work Now"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+            android:lineSpacingExtra="4sp"
+            android:layout_marginTop="@dimen/d4"
+            android:layout_marginStart="@dimen/d40"
+            android:text="Discover the best jobs from our app \n don&apos;t wait and just do it"
+            />
+
+
+        <Button
+            android:layout_width="160dp"
+            android:id="@+id/bt_start"
+            android:layout_marginTop="@dimen/d17"
+            android:layout_marginStart="@dimen/d40"
+            android:textSize="14sp"
+            android:textColor="#f15b5d"
+            android:lineSpacingExtra="5sp"
+            android:text="Get Started"
+            android:background="@drawable/our_button"
+            android:layout_height="@dimen/d40"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".ForgetActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="start"
+        android:layout_marginTop="@dimen/d70"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#f15b5d"
+            android:lineSpacingExtra="3sp"
+            android:layout_marginStart="@dimen/d55"
+            android:text="Forgot password"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#888888"
+        android:layout_marginTop="106dp"
+        android:lineSpacingExtra="2sp"
+        tools:text="Please enter your email to receive a link\nto create a new password via email."
+        />
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@drawable/extreme_rounded_input_bg"
+        android:layout_marginStart="@dimen/d50"
+        android:layout_marginEnd="@dimen/d50"
+        android:elevation="5dp"
+        android:textSize="13sp"
+        android:layout_marginTop="@dimen/d30"
+        android:textColorHint="#bcbcbc"
+        android:lineSpacingExtra="4sp"
+        android:hint="E-Mail"
+        android:paddingStart="@dimen/d30"
+        android:textColor="#000"
+        android:layout_height="@dimen/d35"/>
+
+
+
+
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/d40"
+        android:layout_marginStart="@dimen/d50"
+        android:layout_marginEnd="@dimen/d50"
+        android:background="@drawable/our_button_red"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:lineSpacingExtra="5sp"
+        android:text="Send"
+        android:layout_height="@dimen/d40"/>
+
+</LinearLayout>

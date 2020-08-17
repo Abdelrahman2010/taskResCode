@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="viewModel"
+            type="com.adwya.task.ui.slideshow.SlideshowViewModel" />
+
+    </data>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/profile_high"
+            android:layout_height="70dp">
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/group_374"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="53dp"
+            android:id="@+id/to_edit"
+            android:layout_height="wrap_content"/>
+
+
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/my_image"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
+            android:src="@drawable/abdw"
+            android:layout_marginTop="53dp"
+            android:layout_marginStart="57dp"
+            app:civ_border_color="@android:color/transparent"
+            app:civ_border_width="1dp" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_Info"
+            android:layout_width="match_parent"
+            android:layout_height="227dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="127dp"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_height="match_parent">
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:drawableStart="@drawable/user"
+                    android:paddingStart="26dp"
+                    android:hint="Ali"
+                    android:id="@+id/ed_name"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:textColorHint="#302d2d"
+                    android:textColor="@color/colorPrimary"
+                    android:drawablePadding="13dp"
+                    android:textSize="15dp"
+                    android:layout_height="match_parent"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/ed_phone"
+                    android:drawableStart="@drawable/mobile"
+                    android:paddingStart="26dp"
+                    android:hint="01159050530"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:textColorHint="#302d2d"
+                    android:textColor="@color/colorPrimary"
+                    android:drawablePadding="13dp"
+                    android:textSize="15dp"
+                    android:layout_height="match_parent"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:drawableStart="@drawable/mail"
+                    android:paddingStart="26dp"
+                    android:hint="a@y.com"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:id="@+id/ed_email"
+                    android:textColorHint="#302d2d"
+                    android:textColor="@color/colorPrimary"
+                    android:drawablePadding="13dp"
+                    android:textSize="10dp"
+                    android:layout_height="match_parent"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:drawableStart="@drawable/lock"
+                    android:paddingStart="26dp"
+                    android:hint="....."
+                    android:id="@+id/ed_pass"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:textColorHint="#302d2d"
+                    android:textColor="@color/colorPrimary"
+                    android:inputType="textPassword"
+                    android:drawablePadding="13dp"
+                    android:textSize="15dp"
+                    android:layout_height="match_parent"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/myAddress"
+                    android:drawableStart="@drawable/map_marker"
+                    android:paddingStart="26dp"
+                    android:hint="Address"
+                    android:background="@drawable/address_in_but"
+                    android:textColorHint="#302d2d"
+                    android:drawableEnd="@drawable/arrowadrs"
+                    android:drawableTint="@color/colorPrimary"
+                    android:textColor="@color/colorPrimary"
+                    android:drawablePadding="13dp"
+                    android:textSize="15dp"
+                    android:gravity="start|center"
+                    android:paddingEnd="20dp"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+</RelativeLayout>
+</layout>
